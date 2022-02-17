@@ -1,0 +1,95 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background: #f5f9fc;
+}
+
+ul {
+    padding: 20px;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding: 30px 50px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+#logo a {
+    color: #36454F;
+    font-weight: bold;
+    font-size: 2em;
+    padding-right: 100px;
+}
+
+.btn a {
+    background: #36454F;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 100px;
+}
+
+section.intro{
+    background: #f5f9fc;
+    padding: 50px 0px 100px 100px;
+    display: flex;
+    justify-content: space-around;
+    /*flex: 1 2;*/
+}
+
+.intro div {
+    max-width:40%;
+    /*border: 2px solid black;*/
+}
+
+.summary {
+    padding-top: 50px;
+    width: 300px;
+}
+
+.summary h1 {
+    color: #36454F;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+form input {
+    background: lightgray;
+
+}
+
+.summary h3 {
+    padding-top: 30px;
+}
+
+section.feature{
+    background: #f5f9fc;
+    padding: 50px 0px 100px 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature div {
+    max-width: 20%;
+}
+
+.feature h1 {
+    font-size:1.5em;
+    font-weight: bold;
+}
+
+.info {
+    padding: 50px 100px;
+}
+
+.info h1 {
+    color: #36454F;
+    font-size: 2.5em;
+    font-weight: bold;
+}
