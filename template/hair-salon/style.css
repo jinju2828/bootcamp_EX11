@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif;
+}
+
+ul {
+    text-align: center;
+    padding: 30px;
+}
+
+li {
+    padding: 20px;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.intro {
+    background-image: url("hair-salon.jpg");
+    height: 700px;
+    color: white;
+}
+
+.container {
+    margin-right:60%;
+    padding-top: 50px;
+    padding-left: 100px;
+
+}
+
+.container h1 {
+    font-size: 3em;
+}
+
+.btn {
+    background: black;
+    padding: 10px 30px;
+    margin: 30px 0;
+    width: 30%;
+    color:white;
+}
+
+.book {
+    background: black;
+    padding: 20px;
+    width: 50%;
+    /*margin: 50px 80% 50px 20px;*/
+}
+
+section.info, section.summary {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 200px;
+}
+
+.info div {
+    max-width: 30%;
+    text-align: center;
+}
+
+.info h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.info h3, .summary h3 {
+    color: gray;
+    line-height: 30px;
+}
+
+.summary {
+    background: #f5f9fc;
+}
+
+.summary>div {
+    max-width:45%;
+}
+
+.summary img {
+    max-width: 100%;
+}
+
