@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background: #f3f7f8;
+}
+
+ul {
+    padding: 20px 50px 20px 60%;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+section.welcome {
+    background: #f3f7f8;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-family: Algerian;
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.welcome div {
+    max-width:40%;
+}
+
+input {
+    width: 100%
+}
+
+::placeholder {
+    color: darkgray;
+}
+
+section.about-us {
+    background: #fdfdfd;
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-us h1 {
+    font-size: 3em;
+}
+
+.about-us h3 {
+    font-size: 1em;
+}
+
+.about-us div {
+    max-width:45%;
+}
+
+.story h3 {
+    padding-right:300px;
+    line-height: 30px;
+}
+
+.specialty h1 {
+    font-size: 3em;
+    text-align: center;
+}
+
+section.menu {
+    display:flex;
+    justify-content: space-around;
+    padding: 50px 300px;
+}
+
+div {
+    max-width: 25%;
+}
